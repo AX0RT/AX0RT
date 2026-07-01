@@ -9,7 +9,7 @@
 <body>
     <!-- HEADER -->
     <header>
-        <h1>Marco Araneda Leal</h1>
+        <h1>Ax!</h1>
         <p class="subtitle">Python Developer · Industrial Engineer</p>
         <nav class="contact">
             <a href="mailto:optimizacionfactorial@gmail.com">optimizacionfactorial@gmail.com</a>
@@ -80,7 +80,7 @@ class Event:
         self.x0    = D(x0) if x0 is not None else None
         self.x1    = D(x1) if x1 is not None else None
         self.lane  = int(lane)
-        self.title = title        </code></pre>
+        self.title = title</code></pre>
         </div>
     </section>
 
@@ -136,7 +136,7 @@ class Event:
 def _smootherstep(t: float) -> float:
     """Smootherstep: slow start, fast middle, slow end (6t⁵ - 15t⁴ + 10t³)."""
     t = max(0.0, min(1.0, t))
-    return t * t * t * (t * (t * 6 - 15) + 10)        </code></pre>
+    return t * t * t * (t * (t * 6 - 15) + 10)</code></pre>
         </div>
     </section>
 
@@ -203,7 +203,7 @@ def _smootherstep(t: float) -> float:
 
         extracted = next(f for f in os.listdir(download_dir)
                          if f.startswith(prefix) and f != part['filename'])
-        sftp.put(os.path.join(download_dir, extracted), f"{upload_dir}/{extracted}")    </code></pre>
+        sftp.put(os.path.join(download_dir, extracted), f"{upload_dir}/{extracted}")</code></pre>
         </div>
     </section>
 
